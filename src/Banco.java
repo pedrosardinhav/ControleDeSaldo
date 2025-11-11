@@ -30,7 +30,6 @@ public class Banco {
             System.out.println(menu);
             opcao = leitura.nextInt();
             if (opcao == 1) {
-
                 System.out.printf("Seu saldo é: R$ %.2f".formatted(saldoini));
                 System.out.println();
             } else if (opcao == 2) {
